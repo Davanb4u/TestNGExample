@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="11897" started-at="2019-04-08T14:18:12Z" finished-at="2019-04-08T14:18:24Z">
+  <suite name="Suite1" duration-ms="17183" started-at="2019-04-09T12:18:50Z" finished-at="2019-04-09T12:19:07Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="11897" started-at="2019-04-08T14:18:12Z" finished-at="2019-04-08T14:18:24Z">
+    <test name="Regression1" duration-ms="17183" started-at="2019-04-09T12:18:50Z" finished-at="2019-04-09T12:19:07Z">
       <class name="com.practice.TestNGExample.SampleTestOne">
-        <test-method status="PASS" signature="TestMethod()[pri:0, instance:com.practice.TestNGExample.SampleTestOne@4e4aea35]" name="TestMethod" duration-ms="11883" started-at="2019-04-08T16:18:12Z" finished-at="2019-04-08T16:18:24Z">
+        <test-method status="PASS" signature="TestMethod()[pri:0, instance:com.practice.TestNGExample.SampleTestOne@4e4aea35]" name="TestMethod" duration-ms="17165" started-at="2019-04-09T14:18:50Z" finished-at="2019-04-09T14:19:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestMethod -->

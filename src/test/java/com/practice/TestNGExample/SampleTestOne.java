@@ -19,15 +19,20 @@ public class SampleTestOne {
 	   driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
 	   driver.findElement(By.xpath(" //*[@id=\"ap_password\"]")).sendKeys("dvnreddy.v@gmail.com");
 	   driver.findElement(By.xpath("//*[@id=\"a-autoid-0\"]")).click();
+	   
 	   try {
 		   String actualTitle = driver.getTitle();
 		   String expectedTitle = "Amazon Sign In";
 		   assertEquals(expectedTitle,actualTitle);
-		   System.out.println("PASS");
+		   System.out.println("Executed and Pass");
+		   driver.close();
 
 		} catch (Exception e) {
 			System.out.println("FAIL");
+			driver.close();
 		}
+	   
+	   
 	 
 	   
 	   
